@@ -53,5 +53,5 @@ def post_detail(request, id):
     return render(request, 'blog/detail.html', {'post': post})
 
 
-def category_posts(request, category):
-    return render(request, 'blog/category.html', {'category': category})
+def category_posts(request, category_slug):
+    return render(request, 'blog/category.html', {'category': category_slug})
