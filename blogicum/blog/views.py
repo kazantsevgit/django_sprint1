@@ -59,4 +59,4 @@ def category_posts(request, category_slug):
         request,
         'blog/category.html',
         {'category_slug': category_slug}
-        )
+    )
